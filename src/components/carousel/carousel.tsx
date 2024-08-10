@@ -66,7 +66,7 @@ export default function ImageSlider(): JSX.Element {
   };
 
   return (
-    <div className="relative w-full mx-auto mt-0">
+    <div className="relative w-full mx-auto mt-0 ">
       <div
         className="relative h-[90vh] mx-0 group "
         onMouseOver={handleMouseOver}
@@ -76,7 +76,7 @@ export default function ImageSlider(): JSX.Element {
           src={images[currentIndex].src}
           alt={`Slider Image ${currentIndex + 1}`}
           layout="fill"
-          className="rounded-xl transition-all duration-500 ease-in-out cursor-pointer"
+          className="rounded-xl transition-all duration-500 ease-in-out  cursor-pointer"
         />
       </div>
       <button
