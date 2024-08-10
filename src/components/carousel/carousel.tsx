@@ -1,7 +1,7 @@
 "use client";
-import { useState, useEffect } from "react";
-import Image from "next/image";
 import { ChevronLeft, ChevronRight } from "lucide-react";
+import Image from "next/image";
+import { useEffect, useState } from "react";
 
 // Interface for image data
 interface ImageData {
@@ -68,7 +68,7 @@ export default function ImageSlider(): JSX.Element {
   return (
     <div className="relative w-full mx-auto mt-0">
       <div
-        className="relative h-[90vh] mx-0 group "
+        className="relative h-[88vh] mx-0 group "
         onMouseOver={handleMouseOver}
         onMouseLeave={handleMouseLeave}
       >
