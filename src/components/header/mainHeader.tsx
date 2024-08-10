@@ -10,7 +10,7 @@ export function MainHeader() {
             <Image src='/logo.png' width={100} height={100} alt='logo'/>
             <Separator orientation="vertical" className="h-12" />
           </div>
-            <nav className='flex gap-4'>
+            <nav  className='sm:flex hidden gap-4'>
               <a  href='#home' className=' hover:text-blue-400'>Home</a>
               <a href='#home' className=' hover:text-blue-400'>Empresa</a>
               <a href='#home' className=' hover:text-blue-400'>Serviços</a>
