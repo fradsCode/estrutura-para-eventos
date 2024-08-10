@@ -6,8 +6,10 @@ export function MainHeader() {
   return (
     <>    
         <header className=" w-full h-15 flex items-center justify-between py-1 px-8 gap-4">
+          <div className='flex space-x-4 space-y-1'>
             <Image src='/logo.png' width={100} height={100} alt='logo'/>
             <Separator orientation="vertical" className="h-12" />
+          </div>
             <nav className='flex gap-4'>
               <a  href='#home' className=' hover:text-blue-400'>Home</a>
               <a href='#home' className=' hover:text-blue-400'>Empresa</a>
@@ -15,6 +17,9 @@ export function MainHeader() {
               <a href='#home' className=' hover:text-blue-400'>Eventos</a>
               <a href='#home' className=' hover:text-blue-400'>Clientes</a>
             </nav>
+            <div>
+              
+            </div>
         </header>
         <Separator orientation="horizontal" className="w-full" />
     </>
