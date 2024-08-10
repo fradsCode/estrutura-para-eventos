@@ -1,4 +1,6 @@
+"use client";
 import { Card, CardContent } from "@/components/ui/card"
+import Image from 'next/image';
 import {
   Carousel,
   CarouselContent,
@@ -7,36 +9,41 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel"
 import Autoplay from "embla-carousel-autoplay"
- 
+
 export function CarouselHero() {
+  const Imgs = ['/c1.jpeg', '/c2.jpeg', '/c3.jpeg', '/c1.jpeg', '/c1.jpeg']
   return (
-    <div className="w-full flex">
-    <Carousel className="w-full max-w-xs"
-      opts={{
-        align: "start",
-        loop: true,
-      }}
-      plugins={[
-        Autoplay({
-          delay: 2000,
-        }),
-      ]}>
-      <CarouselContent>
-        {Array.from({ length: 5 }).map((_, index) => (
-          <CarouselItem key={index}>
-            <div className="p-1">
-              <Card>
-                <CardContent className="flex aspect-square items-center justify-center p-6">
-                  <span className="text-4xl font-semibold">{index + 1}</span>
-                </CardContent>
-              </Card>
-            </div>
-          </CarouselItem>
-        ))}
-      </CarouselContent>
-      <CarouselPrevious />
-      <CarouselNext />
-    </Carousel>
+    <div id='Home'>
+      <Carousel
+        opts={{
+          align: "start",
+          loop: true,
+        }}
+        plugins={[
+          Autoplay({
+            delay: 200000,
+          }),
+        ]}>
+        <CarouselContent >
+          {Imgs.map((img, index) => (
+            <CarouselItem  key={index}>
+              <div  >
+                <Card>
+                  <CardContent className="w-full  border-none "  >
+                     <Image  src={img}priority alt={`Image ${index}`} sizes="100vw" width={100} height={100} style={{
+                      width: '100%',
+                      maxWidth: '1800px',
+                    }} /> 
+                
+                  </CardContent>
+                </Card>
+              </div>
+            </CarouselItem>
+          ))}
+        </CarouselContent>
+        <CarouselPrevious />
+        <CarouselNext />
+      </Carousel>
     </div>
   )
 }
