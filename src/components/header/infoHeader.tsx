@@ -11,8 +11,10 @@ export function InfoHeader() {
       >
         <div className="flex flex-row text-xs text-center">
           <MapPin size={15} />
+          <p  className="sm:flex hidden">
           Estrada das Pedrinhas, 615 galpão- Amendoeira - São Gonçalo - Rio de
           Janeiro
+          </p>
         </div>
       </a>
       <div className="flex flex-row text-xs text-center space-x-4">
@@ -23,7 +25,7 @@ export function InfoHeader() {
         >
           <span className="flex flex-row text-xs text-center gap-1">
             <Phone size={15} />
-            21 96857-8118
+            <p className="lg:flex hidden" >21 96857-8118</p>
           </span>
         </a>
         <a
@@ -33,12 +35,12 @@ export function InfoHeader() {
         >
           <span className="flex flex-row text-xs text-center gap-1">
             <Phone size={15} />
-            21 99257-5323
+            <p className=" lg:flex hidden" > 21 99257-5323</p>
           </span>
         </a>
         <span className="flex flex-row text-xs text-center gap-1">
           <Phone size={15} />
-          21 2717-3264
+          <p className=" lg:flex hidden" > 21 2717-3264</p>
         </span>
         <a
           className="flex flex-row space-x-1 hover:text-blue-800"
@@ -46,7 +48,7 @@ export function InfoHeader() {
           target="_blank"
         >
           <Instagram size={15} />
-          <span className="text-xs font-bold">@estruturaparaeventos</span>
+          <span className="lg:flex text-xs font-bold hidden">@estruturaparaeventos</span>
         </a>
       </div>
     </header>
