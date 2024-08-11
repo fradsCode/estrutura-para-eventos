@@ -4,6 +4,7 @@ import '../../../public/logo-light.png';
 import '../../../public/logo.png';
 import { Separator } from '../ui/separator';
 import { ModeToggle } from './changeThemeButton';
+import { DropMenu } from './dropDownMenu';
 
 export function MainHeader() {
   return (
@@ -14,14 +15,15 @@ export function MainHeader() {
             <Image src="/logo-light.png" className="block dark:hidden" width={100} height={100} alt="Logo da empresa"/>
             <Separator orientation="vertical" className="h-12" />
           </div>
-            <nav className='flex gap-4'>
+            <nav  className='sm:flex hidden gap-4'>
               <a  href='#home' className=' hover:text-blue-400'>Home</a>
               <a href='#home' className=' hover:text-blue-400'>Empresa</a>
               <a href='#home' className=' hover:text-blue-400'>Serviços</a>
               <a href='#home' className=' hover:text-blue-400'>Eventos</a>
               <a href='#home' className=' hover:text-blue-400'>Clientes</a>
             </nav>
-            <div>
+            <div className='flex gap-6'>
+              <DropMenu/>
               <ModeToggle />
             </div>
         </header>
