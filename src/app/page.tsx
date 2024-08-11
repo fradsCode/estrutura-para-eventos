@@ -10,7 +10,6 @@ export default function Home() {
     <>
       <InfoHeader />
       <MainHeader />
-
       <ImageSlider/>
       <WhatsIcon/>
     </>

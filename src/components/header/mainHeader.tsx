@@ -4,6 +4,7 @@ import '../../../public/logo-light.png';
 import '../../../public/logo.png';
 import { Separator } from '../ui/separator';
 import { ModeToggle } from './changeThemeButton';
+import { DropMenu } from './dropDownMenu';
 
 export function MainHeader() {
   return (
@@ -21,7 +22,8 @@ export function MainHeader() {
               <a href='#home' className=' hover:text-blue-400'>Eventos</a>
               <a href='#home' className=' hover:text-blue-400'>Clientes</a>
             </nav>
-            <div>
+            <div className='flex gap-6'>
+              <DropMenu/>
               <ModeToggle />
             </div>
         </header>
