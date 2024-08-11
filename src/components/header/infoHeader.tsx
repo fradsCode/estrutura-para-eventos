@@ -12,8 +12,8 @@ export function InfoHeader() {
         <div className="flex flex-row text-xs text-center">
           <MapPin size={15} />
           <p  className="sm:flex hidden">
-          Estrada das Pedrinhas, 615 galpão- Amendoeira - São Gonçalo - Rio de
-          Janeiro
+          Estrada das Pedrinhas, 615 galpão - Amendoeira - São Gonçalo - Rio de
+          Janeiro 
           </p>
         </div>
       </a>
