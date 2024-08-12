@@ -68,7 +68,7 @@ export default function ImageSlider(): JSX.Element {
   return (
     <div className="relative w-full mx-auto mt-0  ">
       <div
-        className="2xl:h-[90vh] xl:h-[80vh]  md:h-[60vh] sm:h-[40vh] h-[20vh] relative mx-0 group "
+        className="2xl:h-[80vh] xl:h-[60vh]  md:h-[40vh] sm:h-[30vh] h-[20vh] relative mx-0 group "
         onMouseOver={handleMouseOver}
         onMouseLeave={handleMouseLeave}
       >
