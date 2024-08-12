@@ -76,7 +76,7 @@ export default function ImageSlider(): JSX.Element {
           src={images[currentIndex].src}
           alt={`Slider Image ${currentIndex + 1}`}
           layout="fill"
-          className="rounded-xl transition-all duration-500 ease-in-out cursor-pointer"
+          className=" transition-all duration-500 ease-in-out cursor-pointer"
         />
       </div>
       <button
