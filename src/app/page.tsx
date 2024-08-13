@@ -2,6 +2,7 @@
 
 import ImageSlider from "@/components/carousel/carousel";
 import { Company } from "@/components/company/company";
+import { Customer } from "@/components/customer/customer";
 import { Footer } from "@/components/footer/footer";
 import { InfoHeader } from "@/components/header/infoHeader";
 import { MainHeader } from "@/components/header/mainHeader";
@@ -16,6 +17,8 @@ export default function Home() {
       <ImageSlider/>
       <Company />
       <Service/>
+      <Customer/>
+   
       <WhatsIcon/>
       <Footer />
     </>
