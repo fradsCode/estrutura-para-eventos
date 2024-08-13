@@ -18,7 +18,6 @@ export default function Home() {
       <Company />
       <Service/>
       <Customer/>
-   
       <WhatsIcon/>
       <Footer />
     </>

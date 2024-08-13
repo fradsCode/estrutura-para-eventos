@@ -45,7 +45,7 @@ export function Service() {
                 </div>
                 <div className="max-w-[1400px] flex justify-center flex-wrap gap-5 px-5">
                     {infos.map((text, index) => (
-                        <div className="max-w-sm  bg-white border border-gray-200 rounded-lg shadow hover:bg-primary-foreground dark:bg-gray-800  dark:border-gray-700">
+                        <div key={index} className="max-w-sm  bg-white border border-gray-200 rounded-lg shadow hover:bg-primary-foreground dark:bg-gray-800  dark:border-gray-700">
                             <a href="#">
                                 <img className="rounded-t-lg" src="/c1.jpeg" alt="" />
                             </a>
