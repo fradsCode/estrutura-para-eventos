@@ -38,20 +38,20 @@ export function Service() {
     ];
     return (
         <div className="h-auto w-full flex justify-center mb-10" id='serviço'>
-            <main className=" max-w-[1600px] mt-10 flex flex-col items-center pb-8 border border-gray-200 rounded-lg shadow bg-muted dark:border-gray-700 ">
+            <main className=" max-w-[1600px] mt-10 flex flex-col items-center pb-8">
                 <div className=" flex flex-col items-center mb-10">
-                    <h1 className="text-3xl font-bold mb-4 mt-10">Serviços</h1>
+                    <h1 className="text-3xl font-bold mb-4 mt-10">Estruturas</h1>
 
                 </div>
                 <div className="max-w-[1400px] flex justify-center flex-wrap gap-5 px-5">
                     {infos.map((text, index) => (
-                        <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                        <div className="max-w-sm  bg-white border border-gray-200 rounded-lg shadow hover:bg-primary-foreground dark:bg-gray-800  dark:border-gray-700">
                             <a href="#">
                                 <img className="rounded-t-lg" src="/c1.jpeg" alt="" />
                             </a>
-                            <div className="p-5">
+                            <div className="p-5 hover:bg-primary-foreground h-[90px]">
                                 <a href="#">
-                                    <h5 className="mb-2 text-center text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{text.title}</h5>
+                                    <h5 className="mb-2 text-center text-2xl font-bold tracking-tight text-gray-900  dark:text-white">{text.title}</h5>
                                 </a>
                             </div>
                         </div>
