@@ -48,7 +48,6 @@ export function Customer() {
 
                         <a
                             key={index}
-                            href="#"
                             className="block max-w-sm min-w-[300px] p-6 bg-primary-foreground/20 border border-gray-200 rounded-lg shadow dark:border-gray-700 hover:bg-primary-foreground"
                         >
                             

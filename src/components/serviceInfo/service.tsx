@@ -3,6 +3,14 @@ import { FaRegLightbulb, FaTheaterMasks } from "react-icons/fa";
 import { GiSoundOn } from "react-icons/gi";
 import { SlScreenDesktop } from "react-icons/sl";
 import { TbBuildingCircus } from "react-icons/tb";
+import {
+    Dialog,
+    DialogContent,
+    DialogDescription,
+    DialogHeader,
+    DialogTitle,
+    DialogTrigger,
+  } from "@/components/ui/dialog"
 export function Service() {
     const infos = [
         {
@@ -45,16 +53,26 @@ export function Service() {
                 </div>
                 <div className="max-w-[1400px] flex justify-center flex-wrap gap-5 px-5">
                     {infos.map((text, index) => (
-                        <div key={index} className="max-w-sm  bg-white border border-gray-200 rounded-lg shadow hover:bg-primary-foreground dark:bg-gray-800  dark:border-gray-700">
-                            <a href="#">
+                        <Dialog key={index}>
+                        <DialogTrigger><div key={index} className="max-w-sm  bg-white border border-gray-200 rounded-lg shadow hover:bg-primary-foreground dark:bg-gray-800  dark:border-gray-700">
+                            <a>
                                 <img className="rounded-t-lg" src="/c1.jpeg" alt="" />
                             </a>
                             <div className="p-5 hover:bg-primary-foreground h-[90px]">
-                                <a href="#">
+                                <a>
                                     <h5 className="mb-2 text-center text-2xl font-bold tracking-tight text-gray-900  dark:text-white">{text.title}</h5>
                                 </a>
                             </div>
-                        </div>
+                        </div></DialogTrigger>
+                        <DialogContent>
+                          <DialogHeader>
+                            <DialogDescription className="w-full">
+                            <img className="rounded-t-lg" src="/c1.jpeg" alt="" />
+                            </DialogDescription>
+                          </DialogHeader>
+                        </DialogContent>
+                      </Dialog>
+                        
                     ))}
                 </div>
             </main>
