@@ -5,6 +5,7 @@ import { Company } from "@/components/company/company";
 import { Footer } from "@/components/footer/footer";
 import { InfoHeader } from "@/components/header/infoHeader";
 import { MainHeader } from "@/components/header/mainHeader";
+import { Service } from "@/components/serviceInfo/service";
 import { WhatsIcon } from "@/components/whatsIcon/whatsIcon";
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
       <MainHeader />
       <ImageSlider/>
       <Company />
+      <Service/>
       <WhatsIcon/>
       <Footer />
     </>
