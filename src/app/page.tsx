@@ -1,6 +1,7 @@
 "use client";
 
 import ImageSlider from "@/components/carousel/carousel";
+import { Company } from "@/components/company/company";
 import { Footer } from "@/components/footer/footer";
 import { InfoHeader } from "@/components/header/infoHeader";
 import { MainHeader } from "@/components/header/mainHeader";
@@ -12,6 +13,7 @@ export default function Home() {
       <InfoHeader />
       <MainHeader />
       <ImageSlider/>
+      <Company />
       <WhatsIcon/>
       <Footer />
     </>

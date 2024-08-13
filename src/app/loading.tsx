@@ -9,5 +9,5 @@ return (
             Carregando <LoaderCircle className="animate-spin" size={40} />
         </span>
     </div>
-)
+    )
 }

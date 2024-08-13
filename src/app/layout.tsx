@@ -1,10 +1,10 @@
 
 import type { Metadata } from "next";
 import { ThemeProvider } from "next-themes";
-import { Inter } from "next/font/google";
+import { Roboto } from "next/font/google";
+import "../../tailwind.config";
 import "./globals.css";
-import  "../../tailwind.config";
-const inter = Inter({ subsets: ["latin"] });
+const roboto = Roboto({ weight:['100', '300', '400', '500', '700', '900'], subsets:['latin']});
 
 export const metadata: Metadata = {
   title: "Estrutura para Eventos",
@@ -17,9 +17,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-br">
-      <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
-          <body className={inter.className}>{children}</body>
-      </ThemeProvider>
+      <body className={roboto.className}>
+        <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+          {children}
+        </ThemeProvider>
+      </body>
     </html>
   );
 }
