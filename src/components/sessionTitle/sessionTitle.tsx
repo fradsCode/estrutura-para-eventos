@@ -6,7 +6,7 @@ interface SessionTitleProps {
 export function SessionTitle({title}: SessionTitleProps) {
     return (
         <>
-            <h2 className="text-primary text-5xl font-semibold">
+            <h2 id='empresa' className="text-primary text-5xl font-semibold">
                 {title}
             </h2>
         </>

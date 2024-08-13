@@ -37,7 +37,7 @@ export function Service() {
         },
     ];
     return (
-        <div className="h-screen w-full flex justify-center max-h-[700px] mb-10">
+        <div id='serviço' className="h-screen w-full flex justify-center max-h-[700px] mb-10">
             <main className=" max-w-[1600px] mt-10 flex flex-col items-center  bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 ">
                 <div className=" flex flex-col items-center mb-10">
                     <h1 className="text-3xl font-bold mb-4 mt-10">Serviços</h1>

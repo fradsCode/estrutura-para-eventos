@@ -16,11 +16,11 @@ export function MainHeader() {
             <Separator orientation="vertical" className="h-12" />
           </div>
             <nav  className='sm:flex hidden gap-4'>
-              <a  href='#home' className=' hover:text-blue-400'>Home</a>
-              <a href='#home' className=' hover:text-blue-400'>Empresa</a>
-              <a href='#home' className=' hover:text-blue-400'>Serviços</a>
-              <a href='#home' className=' hover:text-blue-400'>Eventos</a>
-              <a href='#home' className=' hover:text-blue-400'>Clientes</a>
+              <a  rel="noopener noreferrer" href='#home' className=' hover:text-blue-400'>Home</a>
+              <a href='#empresa' className=' hover:text-blue-400'>Empresa</a>
+              <a href='#serviço' className=' hover:text-blue-400'>Serviços</a>
+              <a href='#eventos' className=' hover:text-blue-400'>Eventos</a>
+              <a href='#clientes' className=' hover:text-blue-400'>Clientes</a>
             </nav>
             <div className='flex gap-6'>
               <DropMenu/>
