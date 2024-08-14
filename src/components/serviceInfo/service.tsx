@@ -1,16 +1,16 @@
-import { BiDotsHorizontalRounded } from "react-icons/bi";
-import { FaRegLightbulb, FaTheaterMasks } from "react-icons/fa";
-import { GiSoundOn } from "react-icons/gi";
-import { SlScreenDesktop } from "react-icons/sl";
-import { TbBuildingCircus } from "react-icons/tb";
 import {
     Dialog,
     DialogContent,
     DialogDescription,
     DialogHeader,
-    DialogTitle,
-    DialogTrigger,
-  } from "@/components/ui/dialog"
+    DialogTrigger
+} from "@/components/ui/dialog";
+import Image from "next/image";
+import { BiDotsHorizontalRounded } from "react-icons/bi";
+import { FaRegLightbulb, FaTheaterMasks } from "react-icons/fa";
+import { GiSoundOn } from "react-icons/gi";
+import { SlScreenDesktop } from "react-icons/sl";
+import { TbBuildingCircus } from "react-icons/tb";
 export function Service() {
     const infos = [
         {
@@ -56,7 +56,7 @@ export function Service() {
                         <Dialog key={index}>
                         <DialogTrigger><div key={index} className="max-w-sm  bg-white border border-gray-200 rounded-lg shadow hover:bg-primary-foreground dark:bg-gray-800  dark:border-gray-700">
                             <a>
-                                <img className="rounded-t-lg" src="/c1.jpeg" alt="" />
+                                <Image className="rounded-t-lg" src="/c1.jpeg" alt="" width={1000} height={1000}/>
                             </a>
                             <div className="p-5 hover:bg-primary-foreground h-[90px]">
                                 <a>
@@ -67,7 +67,7 @@ export function Service() {
                         <DialogContent>
                           <DialogHeader>
                             <DialogDescription className="w-full">
-                            <img className="rounded-t-lg" src="/c1.jpeg" alt="" />
+                            <Image className="rounded-t-lg" src="/c1.jpeg" alt="" />
                             </DialogDescription>
                           </DialogHeader>
                         </DialogContent>
