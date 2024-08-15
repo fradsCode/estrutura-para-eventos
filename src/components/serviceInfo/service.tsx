@@ -48,6 +48,7 @@ export function Service() {
             <main className=" max-w-[1600px] mt-10 flex flex-col items-center pb-8">
                 <div className=" flex flex-col items-center mb-10">
                     <h1 className="text-3xl font-bold mb-4 mt-10">Estruturas</h1>
+                    <p className="max-w-[600px] text-center flex pl-5 pr-5">Criamos estruturas personalizadas para atender às suas necessidades específicas. Desde palcos e tendas até arquibancadas e passarelas, nossa equipe de profissionais experientes trabalha lado a lado com você para projetar e construir estruturas que impressionam.</p>
 
                 </div>
                 <div className="max-w-[1400px] flex justify-center flex-wrap gap-5 px-5">
@@ -60,13 +61,14 @@ export function Service() {
                             <div className="p-5 hover:bg-primary-foreground h-[90px]">
                                 <a>
                                     <h5 className="mb-2 text-center text-2xl font-bold tracking-tight text-gray-900  dark:text-white">{text.title}</h5>
+                                    
                                 </a>
                             </div>
                         </div></DialogTrigger>
                         <DialogContent>
                           <DialogHeader>
                             <DialogDescription className="w-full">
-                            <Image className="rounded-t-lg" src={text.Icon} alt="" width={1000} height={1000} />
+                            <Image className="rounded-t-lg" src={text.Icon} alt="" width={1200} height={1000} />
                             </DialogDescription>
                           </DialogHeader>
                         </DialogContent>
