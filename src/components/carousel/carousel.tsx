@@ -66,43 +66,43 @@ export default function ImageSlider(): JSX.Element {
   };
 
   return (
-    <div className="relative w-full mx-auto mt-0  ">
-      <div
-        className="2xl:h-[80vh] xl:h-[60vh]  md:h-[40vh] sm:h-[30vh] h-[20vh] relative mx-0 group "
-        onMouseOver={handleMouseOver}
-        onMouseLeave={handleMouseLeave}
-      >
-        <Image
-          src={images[currentIndex].src}
-          alt={`Slider Image ${currentIndex + 1}`}
-          layout="fill"
-          className=" transition-all duration-500 ease-in-out cursor-pointer"
-        />
+      <div className="relative w-full xl:w-[75vw] 2xl:w-[65vw] mx-auto rounded-2xl">
+        <div
+          className="2xl:h-[70vh] xl:h-[60vh] md:h-[40vh] sm:h-[30vh] h-[20vh] relative mx-0 group"
+          onMouseOver={handleMouseOver}
+          onMouseLeave={handleMouseLeave}
+        >
+          <Image
+            src={images[currentIndex].src}
+            alt={`Slider Image ${currentIndex + 1}`}
+            layout="fill"
+            className=" transition-all duration-500 ease-in-out cursor-pointer rounded-none xl:rounded-xl"
+          />
+        </div>
+        <button
+          className="absolute left-0 top-1/2 transform bg-transparent rounded-xl hover:bg-primary mx-1 -mt-[10px] -translate-y-1/2 text-white p-2 group"
+          onClick={prevSlide}
+        >
+          <ChevronLeft className="text-gray-400 group-hover:text-white" />
+        </button>
+        <button
+          className="absolute right-0 top-1/2 bg-transparent rounded-xl hover:bg-primary mx-1 -mt-[10px] -translate-y-1/2 bg-[#111927] text-white p-2 group"
+          onClick={nextSlide}
+        >
+          <ChevronRight className="text-gray-400 group-hover:text-white" />
+        </button>
+        <div className="flex justify-center mt-4">
+          {images.map((_, index) => (
+            <div
+              key={index}
+              className={`h-1 w-10 mx-1 ${
+                index === currentIndex
+                  ? "bg-primary rounded-xl"
+                  : "bg-gray-300 rounded-xl"
+              } transition-all duration-500 ease-in-out`}
+            ></div>
+          ))}
+        </div>
       </div>
-      <button
-        className="absolute left-0 top-1/2 transform bg-transparent rounded-xl hover:bg-primary mx-1 -mt-[10px] -translate-y-1/2  text-white p-2 group"
-        onClick={prevSlide}
-      >
-        <ChevronLeft className="text-gray-400 group-hover:text-white" />
-      </button>
-      <button
-        className="absolute right-0 top-1/2 bg-transparent rounded-xl hover:bg-primary mx-1 -mt-[10px] -translate-y-1/2 bg-[#111927] text-white p-2 group"
-        onClick={nextSlide}
-      >
-        <ChevronRight className="text-gray-400 group-hover:text-white" />
-      </button>
-      <div className="flex justify-center mt-4">
-        {images.map((_, index) => (
-          <div
-            key={index}
-            className={`h-1 w-10 mx-1 ${
-              index === currentIndex
-                ? "bg-primary rounded-xl"
-                : "bg-gray-300 rounded-xl"
-            } transition-all duration-500 ease-in-out`}
-          ></div>
-        ))}
-      </div>
-    </div>
-  );
-}
+    );
+  }

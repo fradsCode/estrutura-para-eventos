@@ -4,17 +4,17 @@ export function Company() {
         <main className="flex flex-row justify-center align-middle -rotate-3 mt-12 h-auto gap-x-4 bg-blue-600 p-2 xl:p-5 mx-10 rounded-2xl animate-accordion-down">
             <div className="flex justify-center w-full bg-blue-700 p-2 xl:p-10 rounded-2xl rotate-3">
                 <div className="flex flex-row bg-auto bg-center rounded-2xl" style={{ backgroundImage: "url('/showBG.avif')" }}>
-                    <div className="flex flex-col w-full text-center bg-foreground/90 dark:bg-background/90 py-10 px-4 md:px-10 text-foreground justify-center align-middle items-center space-y-8 rounded-2xl">
+                    <div className="flex flex-col w-full bg-foreground/90 dark:bg-background/90 text-center py-10 px-4 md:px-10 text-white justify-center align-middle items-center space-y-4 rounded-2xl">
                         <h2 className="text-3xl font-bold mb-4 mt-10">Estrutural Eventos</h2>
-                        <p className="text-base text-white leading-6 xl:w-1/3">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                            Temporibus repudiandae dolor, <span className="text-primary font-bold">eveniet minima</span> laudantium nostrum. 
-                            Nam vitae expedita cumque non adipisci quos itaque iure! Ullam at placeat esse debitis perspiciatis.
+                        <p className="text-base text-white leading-6 md:w-3/4 xl:w-2/3 2xl:w-1/3">
+                            Com mais de 20 anos de experiência no mercado, somos a principal empresa de estruturas de palcos no Rio de Janeiro. 
+                            Nossa trajetória é marcada pela excelência, inovação e compromisso com a segurança e a qualidade em cada projeto que realizamos.
                         </p>
-                        <p className="text-base text-foreground text-white leading-6 xl:w-1/3">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                            Temporibus repudiandae dolor, <span className="text-primary font-bold">eveniet minima</span> laudantium nostrum. 
-                            Nam vitae expedita cumque non adipisci quos itaque iure! Ullam at placeat esse debitis perspiciatis.
+                        <h3 className="text-blue-400 font-bold">Quem somos?</h3> 
+                        <p className="text-base text-foreground text-white leading-6 md:w-3/4 xl:w-2/3 2xl:w-1/3">
+                            Desde nossa fundação, temos nos dedicado a transformar eventos em experiências inesquecíveis. 
+                            Nossa equipe altamente qualificada e nossos equipamentos de ponta garantem a montagem de estruturas robustas e seguras, 
+                            adaptadas às necessidades específicas de cada cliente de forma personalizada.
                         </p>
                     </div>
                 </div>

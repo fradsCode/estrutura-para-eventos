@@ -15,7 +15,7 @@ export function MainHeader() {
             <Image src="/logo-light.png" className="block dark:hidden" width={100} height={100} alt="Logo da empresa"/>
             <Separator orientation="vertical" className="h-12" />
           </div>
-            <nav  className='sm:flex hidden gap-4'>
+            <nav  className='sm:flex hidden gap-4 bg-primary px-4 py-4 rounded-3xl'>
               <a  rel="noopener noreferrer" href='#home' className=' hover:text-blue-400'>Home</a>
               <a href='#empresa' className=' hover:text-blue-400'>Empresa</a>
               <a href='#serviço' className=' hover:text-blue-400'>Serviços</a>
