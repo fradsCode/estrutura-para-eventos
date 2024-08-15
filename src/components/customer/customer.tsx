@@ -38,7 +38,7 @@ export function Customer() {
                 h:60,
                 w:60,
             },
-            Icon: '/CBhb.png',
+            Icon: '/CBHb.png',
             title: 'Confederação Brasileira de Handebol',
             info: ''
         },
