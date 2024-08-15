@@ -5,7 +5,7 @@ import { Separator } from '../ui/separator';
 export function WhatsIcon() {
   return (
     <>    
-        <a href='#' className='fixed  right-0 bottom-0 '>
+        <a href='https://wa.me/21992575323'  target="_blank" className='fixed  right-0 bottom-0 '>
             <Image src="/whats.png" width={100} height={100} alt='a'/>
         </a>
         
