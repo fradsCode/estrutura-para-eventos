@@ -1,9 +1,9 @@
-import Image from "next/image";
 import {
     HoverCard,
     HoverCardContent,
     HoverCardTrigger,
-} from "@/components/ui/hover-card"
+} from "@/components/ui/hover-card";
+import Image from "next/image";
 export function Customer() {
     const infos = [
         {
@@ -104,12 +104,12 @@ export function Customer() {
                     <h1 className="text-3xl font-bold mb-4 mt-10">Clientes</h1>
 
                 </div>
-                <div className="max-w-[1400px] flex justify-center flex-wrap gap-5 px-5">
+                <div className="max-w-[1400px] xl:max-w-[1000px] flex justify-center flex-wrap gap-5 px-5">
                     {infos.map((text, index) => (
                         <HoverCard key={index}>
                             <HoverCardTrigger><div
                                 key={index}
-                                className="block h-[120px] max-w-[150px] min-w-[150px] p-6 bg-primary-foreground/20 border border-gray-200 rounded-lg shadow dark:border-gray-700 hover:bg-primary-foreground"
+                                className="block h-[120px] max-w-[150px] min-w-[150px] p-6 bg-foreground/80 hover:bg-foreground dark:bg-primary-foreground/40 border border-gray-200 rounded-lg shadow dark:border-gray-700 dark:hover:bg-primary-foreground"
                             >
 
                                 <div>
