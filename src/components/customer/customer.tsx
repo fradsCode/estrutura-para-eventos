@@ -11,14 +11,21 @@ export function Customer() {
             title: 'Globo',
             info: 'mt-2',
             size: {
-                h:60,
-                w:60,
+                h: 60,
+                w: 60,
             },
-        },
-        {
+        }, {
             size: {
-                h:60,
-                w:60,
+                h: 60,
+                w: 60,
+            },
+            Icon: '/record.png',
+            title: 'Rede Record de Televisão',
+            info: 'mt-3'
+        }, {
+            size: {
+                h: 60,
+                w: 60,
             },
             Icon: '/Flu.png',
             title: 'Fluminense',
@@ -26,8 +33,8 @@ export function Customer() {
         },
         {
             size: {
-                h:60,
-                w:60,
+                h: 60,
+                w: 60,
             },
             Icon: '/cbv.png',
             title: 'Confederação Brasileira de Volei',
@@ -35,8 +42,8 @@ export function Customer() {
         },
         {
             size: {
-                h:60,
-                w:60,
+                h: 60,
+                w: 60,
             },
             Icon: '/CBHb.png',
             title: 'Confederação Brasileira de Handebol',
@@ -44,8 +51,8 @@ export function Customer() {
         },
         {
             size: {
-                h:60,
-                w:60,
+                h: 60,
+                w: 60,
             },
             Icon: '/LIESA.png',
             title: 'Liga Independente das Escolas de Samba do Rio de Janeiro',
@@ -53,8 +60,8 @@ export function Customer() {
         },
         {
             size: {
-                h:60,
-                w:60,
+                h: 60,
+                w: 60,
             },
             Icon: '/gov-rio.png',
             title: 'Governo do Estado do Rio de Janeiro',
@@ -62,8 +69,8 @@ export function Customer() {
         },
         {
             size: {
-                h:60,
-                w:60,
+                h: 60,
+                w: 60,
             },
             Icon: '/Niteroi.png',
             title: 'Prefeitura de Niterói',
@@ -71,8 +78,8 @@ export function Customer() {
         },
         {
             size: {
-                h:60,
-                w:60,
+                h: 60,
+                w: 60,
             },
             Icon: '/sao-go.svg',
             title: 'Prefeitura de São Gonçalo',
@@ -80,8 +87,8 @@ export function Customer() {
         },
         {
             size: {
-                h:60,
-                w:60,
+                h: 60,
+                w: 60,
             },
             Icon: '/pmrio.png',
             title: 'Policia militar do Rio de Janeiro',
@@ -89,12 +96,39 @@ export function Customer() {
         },
         {
             size: {
-                h:80,
-                w:110,
+                h: 80,
+                w: 110,
             },
             Icon: '/aeroporto.png',
             title: 'Aeroporto internacional do Galeão',
             info: 'mt-3'
+        },
+        {
+            size: {
+                h: 60,
+                w: 60,
+            },
+            Icon: '/fiocruz.png',
+            title: 'Fundação Oswaldo Cruz',
+            info: '-mt-2'
+        },
+        {
+            size: {
+                h: 60,
+                w: 60,
+            },
+            Icon: '/comite.png',
+            title: 'Comitê Olímpico Brasileiro',
+            info: '-mt-2'
+        },
+        {
+            size: {
+                h: 60,
+                w: 60,
+            },
+            Icon: '/orquestra.png',
+            title: 'Orquestra Sinfônica Brasileira',
+            info: '-mt-2'
         },
     ];
     return (
@@ -122,9 +156,9 @@ export function Customer() {
                                 </div>
                             </div></HoverCardTrigger>
                             <HoverCardContent>
-                            <h5 className="w-full flex text-center justify-center mb-2 text-[17px] font-bold  tracking-tight text-foreground">
-                               {text.title}
-                               </h5>
+                                <h5 className="w-full flex text-center justify-center mb-2 text-[17px] font-bold  tracking-tight text-foreground">
+                                    {text.title}
+                                </h5>
                             </HoverCardContent>
                         </HoverCard>
 
