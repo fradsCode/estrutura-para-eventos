@@ -14,6 +14,8 @@ export default function Home() {
   return (
     <>
       <ScrollArea className="h-[100vh] z-50">
+        <div className="relative">
+        <div>
         <InfoHeader />
         <MainHeader />
         <ImageSlider/>
@@ -21,7 +23,9 @@ export default function Home() {
         <Service/>
         <Customer/>
         <WhatsIcon/>
+        </div>
         <Footer />
+        </div>
       </ScrollArea>
     </>
   );
