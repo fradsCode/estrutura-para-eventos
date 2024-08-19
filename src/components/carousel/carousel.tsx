@@ -66,7 +66,8 @@ export default function ImageSlider(): JSX.Element {
   };
 
   return (
-      <div id="home" className="relative w-[90vw] md:w-[85vw] xl:w-[75vw] 2xl:w-[65vw] mx-auto rounded-2xl">
+    <section  id="home">
+      <div className="relative w-[90vw] md:w-[85vw] xl:w-[75vw] 2xl:w-[65vw] mx-auto rounded-2xl">
         <div
           className="2xl:h-[70vh] xl:h-[60vh] md:h-[40vh] sm:h-[30vh] h-[35vh] relative mx-0 group"
           onMouseOver={handleMouseOver}
@@ -104,5 +105,6 @@ export default function ImageSlider(): JSX.Element {
           ))}
         </div>
       </div>
+      </section>
     );
   }

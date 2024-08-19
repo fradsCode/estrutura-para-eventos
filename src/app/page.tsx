@@ -13,9 +13,9 @@ import { WhatsIcon } from "@/components/whatsIcon/whatsIcon";
 export default function Home() {
   return (
     <>
-      <ScrollArea className="h-[100vh] z-50">
-        <div className="relative">
-        <div>
+      <ScrollArea className=" h-[100vh] z-50">
+        <div className="relative scroll-smooth">
+        <div className="scroll-smooth">
         <InfoHeader />
         <MainHeader />
         <ImageSlider/>
