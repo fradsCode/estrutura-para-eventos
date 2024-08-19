@@ -20,7 +20,7 @@ import {
         <DropdownMenuItem>Empresa</DropdownMenuItem>
         </a>
         <a href="#serviço">
-        <DropdownMenuItem>Serviços</DropdownMenuItem>
+        <DropdownMenuItem>Estruturas</DropdownMenuItem>
         </a>
         <a href="#clientes">
         <DropdownMenuItem>Clientes</DropdownMenuItem>
