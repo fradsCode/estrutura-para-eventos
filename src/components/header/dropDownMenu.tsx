@@ -13,19 +13,16 @@ import {
       <DropdownMenu>
       <DropdownMenuTrigger><GiHamburgerMenu/></DropdownMenuTrigger>
       <DropdownMenuContent>
-        <a href="#Home">
+        <a href='#home'>
         <DropdownMenuItem>Home</DropdownMenuItem>
         </a>
-        <a href="#Empresa">
+        <a href='#empresa'>
         <DropdownMenuItem>Empresa</DropdownMenuItem>
         </a>
-        <a href="#Serviços">
+        <a href="#serviço">
         <DropdownMenuItem>Serviços</DropdownMenuItem>
         </a>
-        <a href="#Eventos">
-        <DropdownMenuItem>Eventos</DropdownMenuItem>
-        </a>
-        <a href="#Clientes">
+        <a href="#clientes">
         <DropdownMenuItem>Clientes</DropdownMenuItem>
         </a>
       </DropdownMenuContent>
