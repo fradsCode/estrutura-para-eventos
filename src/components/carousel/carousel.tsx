@@ -11,10 +11,10 @@ interface ImageData {
 // Image data array
 const images = [
   {
-    src: '/c1.jpeg',
+    src: '/c1.jpg',
   },
   {
-    src: '/c2.jpeg',
+    src: '/c2.jpg',
   },
   {
     src: '/c3.jpeg',
@@ -46,7 +46,7 @@ export default function ImageSlider(): JSX.Element {
     if (!isHovered) {
       const interval = setInterval(() => {
         nextSlide();
-      }, 2000);
+      }, 5000);
 
       // Cleanup the interval on component unmount
       return () => {
@@ -67,9 +67,9 @@ export default function ImageSlider(): JSX.Element {
 
   return (
     <section  id="home">
-      <div className="relative w-[90vw] md:w-[85vw] xl:w-[75vw] 2xl:w-[65vw] mx-auto rounded-2xl">
+      <div className="relative w-[100vw] mx-auto rounded-2xl">
         <div
-          className="2xl:h-[70vh] xl:h-[60vh] md:h-[40vh] sm:h-[30vh] h-[35vh] relative mx-0 group"
+          className="2xl:h-[80vh] xl:h-[60vh] md:h-[40vh] sm:h-[30vh] h-[35vh] relative mx-0 group"
           onMouseOver={handleMouseOver}
           onMouseLeave={handleMouseLeave}
         >
