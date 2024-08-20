@@ -3,9 +3,7 @@ import { FaWhatsapp } from "react-icons/fa";
 
 export function Footer() {
     return (
-        <footer className="relative overflow-hidden flex flex-col md:flex-row justify-center align-middle items-start w-full bg-primary dark:bg-primary/5 text-white py-8 md:gap-28 px-4">
-            <div className="absolute w-[40rem] h-40 bg-blue-500 left-0 -rotate-45 z-40"></div>
-            <div className="absolute w-[40rem] h-40 bg-blue-500 right-0 rotate-45 z-40"></div>
+        <footer className="relative overflow-hidden z-40 flex flex-col md:flex-row justify-center align-middle items-start w-full bg-primary dark:bg-primary/5 text-white py-8 md:gap-28 px-4">
             <div className="flex flex-col space-y-4 mb-5">
                 <span className="text-sm font-light text-foreground flex flex-row gap-1 items-center text-white">
                     <div className="rounded-full bg-primary p-1">
@@ -21,7 +19,7 @@ export function Footer() {
                 </span>
                 <span className="text-sm font-light text-foreground grid md:flex flex-row gap-1 items-center text-white">
 
-                  <p className="flex"><FaWhatsapp size={15} className="mt-1 ml-1 mr-1" />(21) 96857-8118 </p> <p className="flex"><FaWhatsapp size={15} className="mt-1 ml-1 mr-1"/>(21) 99257-5323  </p><p className="flex"><Phone size={15} className="mt-1 ml-1 mr-1"/> (21) 2717-3264</p>
+                <p className="flex"><FaWhatsapp size={15} className="mt-1 ml-1 mr-1" />(21) 96857-8118 </p> <p className="flex"><FaWhatsapp size={15} className="mt-1 ml-1 mr-1"/>(21) 99257-5323  </p><p className="flex"><Phone size={15} className="mt-1 ml-1 mr-1"/> (21) 2717-3264</p>
                 </span>
             </div>
             <div className="flex flex-col text-xs gap-8">

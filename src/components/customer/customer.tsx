@@ -124,7 +124,7 @@ export function Customer() {
     ];
     return (
         <div className="h-auto w-full flex justify-center mb-10" id='clientes'>
-            <main className="w-full flex flex-col items-center pb-8 rounded-lg shadow-lg dark:shadow-blue-950/10 mx-20 isolate bg-muted/20 ring-1 ring-black/5">
+            <main className="w-full flex flex-col items-center pb-8 rounded-lg shadow-lg dark:shadow-blue-950/10 md:mx-20 isolate bg-muted/20 ring-1 ring-black/5">
                 <div className=" flex flex-col items-center mb-10">
                     <h1 className="text-3xl font-bold mb-4 mt-10">Clientes</h1>
                 </div>
