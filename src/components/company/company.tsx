@@ -1,8 +1,8 @@
 
 export function Company() {
     return (
-        <main id="empresa" className="flex flex-row justify-center align-middle -rotate-3 mt-12 h-auto gap-x-4 bg-blue-600 p-2 xl:p-5 mx-10 rounded-2xl animate-accordion-down">
-            <div className="flex justify-center w-full bg-blue-700 p-2 xl:p-10 rounded-2xl rotate-3">
+        <main id="empresa" className="flex flex-row justify-center align-middle -rotate-3 mt-12 h-auto gap-x-4 bg-blue-600 p-1 xl:p-5 mx-4 md:mx-10 rounded-2xl animate-accordion-down">
+            <div className="flex justify-center w-full bg-blue-700 p-1 xl:p-10 rounded-2xl rotate-3">
                 <div className="flex flex-row bg-auto bg-center rounded-2xl" style={{ backgroundImage: "url('/showBG.avif')" }}>
                     <div className="flex flex-col w-full bg-foreground/90 dark:bg-background/90 text-center py-10 px-4 md:px-10 text-white justify-center align-middle items-center space-y-4 rounded-2xl">
                         <h2 className="text-3xl font-bold mt-10">Estrutural Eventos</h2>
