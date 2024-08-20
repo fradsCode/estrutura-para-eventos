@@ -124,26 +124,21 @@ export function Customer() {
     ];
     return (
         <div className="h-auto w-full flex justify-center mb-10" id='clientes'>
-            <main className="w-full mt-10 flex flex-col items-center pb-8 border border-gray-200 rounded-lg shadow bg-muted dark:border-gray-700 ">
+            <main className="w-full flex flex-col items-center pb-8 rounded-lg shadow-lg dark:shadow-blue-950/10 mx-20 isolate bg-muted/20 ring-1 ring-black/5">
                 <div className=" flex flex-col items-center mb-10">
                     <h1 className="text-3xl font-bold mb-4 mt-10">Clientes</h1>
-
                 </div>
                 <div className="max-w-[1400px] xl:max-w-[1000px] flex justify-center flex-wrap gap-5 px-5">
                     {infos.map((text, index) => (
                         <HoverCard key={index}>
-                            <HoverCardTrigger><div
-                                key={index}
-                                className="block h-[120px] max-w-[150px] min-w-[150px] p-6 bg-foreground/80 hover:bg-foreground dark:bg-primary-foreground/40 border border-gray-200 rounded-lg shadow dark:border-gray-700 dark:hover:bg-primary-foreground"
-                            >
-
+                            <HoverCardTrigger>
+                                <div
+                                    key={index}
+                                    className="block h-[120px] max-w-[150px] min-w-[150px] p-6 bg-blue-950 dark:bg-blue-950/20 hover:bg-blue-900 dark:hover:bg-muted/0 rounded-2xl"
+                                    style={{boxShadow: '6px 6px 0 rgba(0, 0, 20, 0.5)'}}
+                                >
                                 <div>
                                     <p className="w-full flex justify-center mb-2"> <Image className={`${text.info}`} src={text.Icon} alt='' height={text.size.h} width={text.size.w} sizes='100wz' /></p>
-
-                                    {/* 
-                                    {text.title}
-                                */}
-
                                 </div>
                             </div></HoverCardTrigger>
                             <HoverCardContent>
