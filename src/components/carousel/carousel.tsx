@@ -69,7 +69,7 @@ export default function ImageSlider(): JSX.Element {
     <section  id="home">
       <div className="relative w-[100vw] mx-auto rounded-2xl">
         <div
-          className="2xl:h-[80vh] xl:h-[60vh] md:h-[40vh] sm:h-[30vh] h-[35vh] relative mx-0 group"
+          className="xl:h-[80vh] md:h-[50vh] sm:h-[30vh] h-[35vh] relative mx-0 group"
           onMouseOver={handleMouseOver}
           onMouseLeave={handleMouseLeave}
         >
