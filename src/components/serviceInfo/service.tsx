@@ -14,7 +14,7 @@ import { TbBuildingCircus } from "react-icons/tb";
 export function Service() {
     const infos = [
         {
-            Icon: '/arquibancada.jpeg',
+            Icon: '/arquibancada.jpg',
             title: 'Arquibancada',
         },
         {
@@ -23,12 +23,12 @@ export function Service() {
             info: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. '
         },
         {
-            Icon: '/geo.jpeg',
+            Icon: '/geo.jpg',
             title: 'Palco geospace (concha)',
             info: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry'
         },
         {
-            Icon: '/arquibancada.jpeg',
+            Icon: '/outros.jpg',
             title: 'Outros',
             info: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry'
         },
