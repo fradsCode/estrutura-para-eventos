@@ -40,27 +40,27 @@ export function InfoJobs() {
       <div className="w-full justify-center mt-10 items-center flex">
         <h1 className="text-3xl font-bold mb-4 mt-10">Nossos Serviços</h1>
       </div>
-      <div className="w-full justify-center  items-center  flex">
-        <div className="w-[600px]">
-          <h2>Por que escolher a Estrutural?</h2>
-          <h2>Experiência e Tradição: </h2>
-          <p>Mais de duas décadas de atuação no mercado nos conferem a expertise necessária para realizar projetos de qualquer porte com excelência.</p>
-          <h2>Inovação e Tecnologia:</h2>
-          <p>Investimos continuamente em tecnologia e inovação para oferecer as melhores soluções em estruturas de eventos</p>
-          <h2>Compromisso com a Segurança</h2>
-          <p>Seguimos rigorosamente todas as normas de segurança, garantindo a integridade de todos os envolvidos.</p>
-          <h2>Atendimento Personalizado: </h2>
-          <p>Nossa equipe está sempre pronta para entender suas necessidades e oferecer soluções personalizadas que superem suas expectativas.</p>      
+      <div className="w-full justify-center  items-center grid lg:flex">
+        <div className="max-w-[600px] p-10">
+          <h2 className="text-lg mb-2">Por que escolher a Estrutural?</h2>
+          <h2 className="mb-2">Experiência e Tradição: </h2>
+          <p className="text-sm mb-2">Mais de duas décadas de atuação no mercado nos conferem a expertise necessária para realizar projetos de qualquer porte com excelência.</p>
+          <h2 className="mb-2">Inovação e Tecnologia:</h2>
+          <p className="text-sm mb-2">Investimos continuamente em tecnologia e inovação para oferecer as melhores soluções em estruturas de eventos</p>
+          <h2 className="mb-2">Compromisso com a Segurança</h2>
+          <p className="text-sm mb-2">Seguimos rigorosamente todas as normas de segurança, garantindo a integridade de todos os envolvidos.</p>
+          <h2 className="mb-2">Atendimento Personalizado: </h2>
+          <p className="text-sm mb-2">Nossa equipe está sempre pronta para entender suas necessidades e oferecer soluções personalizadas que superem suas expectativas.</p>      
         </div>
-        <div className=" mt-[60px]  w-[600px] rounded-lg  bg-muted">
+        <div className=" mt-[60px] max-w-[600px] min-w-[370px] w-full items-center  rounded-lg  bg-muted">
           {infos.map((text, index) => (
-            <div key={index} className="border-blue-50 gap-5" >
+            <div key={index} className="border-blue-50 gap-5 " >
 
               <Accordion type="single" collapsible>
                 <AccordionItem value="item-1" >
                   <AccordionTrigger className="ml-[10px] ">{text.title}</AccordionTrigger>
                   <AccordionContent className="ml-[10px]">
-                    Desenvolvemos palcos sob medida, atendendo a todos os tipos de eventos, desde shows e festivais até conferências e eventos corporativos.
+                    {text.info}
                   </AccordionContent>
                 </AccordionItem>
               </Accordion>
