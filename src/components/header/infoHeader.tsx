@@ -12,15 +12,15 @@ export function InfoHeader() {
         <div className="flex flex-row text-xs text-center sm:-mr-[0px] ml-[10px] -mr-[20px]">
           <MapPin size={15} />
           <p  className="sm:flex hidden">
-          Estrada das Pedrinhas, 615 galpão- Amendoeira - São Gonçalo - Rio de
-          Janeiro
+          Estrada das Pedrinhas, 615 galpão - Amendoeira - São Gonçalo - Rio de
+          Janeiro 
           </p>
         </div>
       </a>
       <div className="flex flex-row text-xs text-center space-x-4">
         <a
           className="flex flex-row space-x-1 hover:text-blue-800"
-          href=""
+          href="https://wa.me/21968578118"
           target="_blank"
         >
           <span className="flex flex-row text-xs text-center gap-1">
@@ -30,7 +30,7 @@ export function InfoHeader() {
         </a>
         <a
           className="flex flex-row space-x-1 hover:text-blue-800"
-          href=""
+          href="https://wa.me/21992575323"
           target="_blank"
         >
           <span className="flex flex-row text-xs text-center gap-1">
