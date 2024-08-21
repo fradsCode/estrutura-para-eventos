@@ -16,7 +16,8 @@ export function MainHeader() {
                 <Image src='/logo.png' className="hidden dark:block" width={100} height={100} alt="Logo da empresa" />
                 <Image src="/logo-light.png" className="block dark:hidden" width={100} height={100} alt="Logo da empresa"/>
               </div>
-              <a href='#serviço' className=' hover:text-blue-400'>Estruturas</a>
+              <a href='#serviço' className=' hover:text-blue-400'>Serviços</a>
+              <a href='#estrutura' className=' hover:text-blue-400'>Estruturas</a>
               <a href='#clientes' className=' hover:text-blue-400'>Clientes</a>
             </nav>
             <div className='flex gap-6 justify-end'>
