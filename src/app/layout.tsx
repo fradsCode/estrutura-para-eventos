@@ -7,7 +7,7 @@ import "./globals.css";
 const roboto = Roboto({ weight:['100', '300', '400', '500', '700', '900'], subsets:['latin']});
 
 export const metadata: Metadata = {
-  title: "Estrutura para Eventos",
+  title: "Estrutural Eventos",
 };
 
 export default function RootLayout({

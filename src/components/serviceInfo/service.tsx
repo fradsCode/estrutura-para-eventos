@@ -28,16 +28,6 @@ export function Service() {
             info: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry'
         },
         {
-            Icon:'/arquibancada.jpeg',
-            title: 'Camarotes todos os tamanhos',
-            info: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry'
-        },
-        {
-            Icon: '/arquibancada.jpeg',
-            title: '⁠Tenda galpão todos os tamanhos',
-            info: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry'
-        },
-        {
             Icon: '/arquibancada.jpeg',
             title: 'Outros',
             info: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry'
