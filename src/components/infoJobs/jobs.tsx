@@ -70,6 +70,10 @@ export function InfoJobs() {
           ))}
         </div>
       </div>
+      <div id='serviço' className="ml-5 mr-5 justify-center mt-0 items-center text-center grid">
+        <h1 className="text-3xl font-bold  mb-4 mt-10">Estamos prontos para transformar seu evento em um sucesso. </h1>
+        <p>Entre em contato conosco e descubra como podemos ajudar a realizar seu projeto com a qualidade e a segurança que só a melhor empresa de estruturas do Rio de Janeiro pode oferecer.</p>
+      </div>
     </>
   )
 }
