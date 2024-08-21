@@ -34,7 +34,7 @@ export function Service() {
         },
     ];
     return (
-        <div className="h-auto w-full flex justify-center mb-10" id='serviço'>
+        <div className="h-auto w-full flex justify-center mb-10" id='estrutura'>
             <main className=" max-w-[1600px] mt-10 flex flex-col items-center pb-8">
                 <div className=" flex flex-col items-center mb-10">
                     <h1 className="text-3xl font-bold mb-4 mt-10">Estruturas</h1>
