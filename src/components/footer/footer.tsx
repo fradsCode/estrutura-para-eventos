@@ -15,7 +15,7 @@ export function Footer() {
                     <div className="rounded-full bg-primary p-1">
                         <Mail size={18} />
                     </div>
-                    Contatoestruturaleventos@hotmail.com
+                    contatoestruturaleventos@hotmail.com
                 </span>
                 <span className="text-sm font-light text-foreground grid md:flex flex-row gap-1 items-center text-white">
 

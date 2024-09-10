@@ -19,6 +19,9 @@ const images = [
   {
     src: '/c3.jpeg',
   },
+  {
+    src: '/c4.jpg',
+  },
 ];
 
 export default function ImageSlider(): JSX.Element {
@@ -67,9 +70,9 @@ export default function ImageSlider(): JSX.Element {
 
   return (
     <section  id="home">
-      <div className="relative w-[90vw] mx-auto">
+      <div className="relative w-full">
         <div
-          className="xl:h-[80vh] md:h-[50vh] sm:h-[30vh] h-[25vh] relative mx-0 group"
+          className="2xl:h-[80vh] xl:h-[60vh] lg:h-[55vh] md:h-[50vh] sm:h-[30vh] h-[25vh] relative mx-0 group"
           onMouseOver={handleMouseOver}
           onMouseLeave={handleMouseLeave}
         >
