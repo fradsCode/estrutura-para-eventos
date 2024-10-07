@@ -28,6 +28,26 @@ export function Service() {
             info: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry'
         },
         {
+            Icon: '/octanorme.jpg',
+            title: 'Octanorme',
+            info: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. '
+        },
+        {
+            Icon: '/tenda.jpg',
+            title: 'Tenda uma água',
+            info: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. '
+        },
+        {
+            Icon: '/tendaG.jpg',
+            title: 'Tenda galpão',
+            info: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. '
+        },
+        {
+            Icon: '/backdrop.jpg',
+            title: 'Backdrop',
+            info: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. '
+        },
+        {
             Icon: '/outros.jpg',
             title: 'Outros',
             info: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry'

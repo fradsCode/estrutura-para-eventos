@@ -22,6 +22,9 @@ const images = [
   {
     src: '/c4.jpg',
   },
+  {
+    src: '/c5.jpg',
+  },
 ];
 
 export default function ImageSlider(): JSX.Element {
