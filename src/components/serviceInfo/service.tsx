@@ -29,7 +29,7 @@ export function Service() {
         },
         {
             Icon: '/octanorme.jpg',
-            title: 'Tendada galpão',
+            title: 'Tenda galpão',
             info: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. '
         },
         {
