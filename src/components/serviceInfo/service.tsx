@@ -29,7 +29,7 @@ export function Service() {
         },
         {
             Icon: '/octanorme.jpg',
-            title: 'Octanorme',
+            title: 'Tendada galpão',
             info: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. '
         },
         {
@@ -39,12 +39,12 @@ export function Service() {
         },
         {
             Icon: '/tendaG.jpg',
-            title: 'Tenda galpão',
+            title: 'Tenda galpão com fechamento em lona cristal',
             info: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. '
         },
         {
             Icon: '/backdrop.jpg',
-            title: 'Backdrop',
+            title: 'Octanorme',
             info: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. '
         },
         {
