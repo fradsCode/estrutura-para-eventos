@@ -121,6 +121,15 @@ export function Customer() {
             title: 'Comitê Olímpico Brasileiro',
             info: '-mt-2'
         },
+        {
+            size: {
+                h: 80,
+                w: 80,
+            },
+            Icon: '/centurion.png',
+            title: 'Centurion FC',
+            info: '-mt-2'
+        },
     ];
     return (
         <div className="h-auto w-full flex justify-center mb-10" id='clientes'>
