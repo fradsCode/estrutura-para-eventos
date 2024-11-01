@@ -48,6 +48,11 @@ export function Service() {
             info: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. '
         },
         {
+            Icon: '/octogono.jpg',
+            title: 'Octógono',
+            info: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. '
+        },
+        {
             Icon: '/outros.jpg',
             title: 'Outros',
             info: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry'

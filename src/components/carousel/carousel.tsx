@@ -24,6 +24,8 @@ const images = [
   },
   {
     src: '/c5.jpg',
+  },  {
+    src: '/c6.jpg',
   },
 ];
 
