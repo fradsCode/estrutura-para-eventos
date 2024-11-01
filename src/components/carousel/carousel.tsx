@@ -11,7 +11,7 @@ interface ImageData {
 // Image data array
 const images = [
   {
-    src: '/c1.jpg',
+    src: '/c6.jpg',
   },
   {
     src: '/c2.jpg',
@@ -24,9 +24,7 @@ const images = [
   },
   {
     src: '/c5.jpg',
-  },  {
-    src: '/c6.jpg',
-  },
+  }, 
 ];
 
 export default function ImageSlider(): JSX.Element {
