@@ -28,17 +28,6 @@ export function InfoHeader() {
             <p className="lg:flex hidden" >21 96857-8118</p>
           </span>
         </a>
-        <a
-          className="flex flex-row space-x-1 hover:text-blue-800"
-          href="https://wa.me/21992575323"
-          target="_blank"
-        >
-          <span className="flex flex-row text-xs text-center gap-1">
-          <FaWhatsapp size={15}/>
-            <p className=" lg:flex hidden" > 21 99257-5323</p>
-          </span>
-          </a>
-   
         <span className=" lg:flex hidden flex-row text-xs text-center gap-1">
           <Phone size={15} />
           <p className="" > 21 2717-3264</p>

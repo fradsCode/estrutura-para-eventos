@@ -19,7 +19,7 @@ export function Footer() {
                 </span>
                 <span className="text-sm font-light text-foreground grid md:flex flex-row gap-1 items-center text-white">
 
-                <p className="flex"><FaWhatsapp size={15} className="mt-1 ml-1 mr-1" />(21) 96857-8118 </p> <p className="flex"><FaWhatsapp size={15} className="mt-1 ml-1 mr-1"/>(21) 99257-5323  </p><p className="flex"><Phone size={15} className="mt-1 ml-1 mr-1"/> (21) 2717-3264</p>
+                <p className="flex"><FaWhatsapp size={15} className="mt-1 ml-1 mr-1" />(21) 96857-8118 </p><p className="flex"><Phone size={15} className="mt-1 ml-1 mr-1"/> (21) 2717-3264</p>
                 </span>
             </div>
             <div className="flex flex-col text-xs gap-8">
